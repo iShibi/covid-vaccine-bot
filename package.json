@@ -1,0 +1,22 @@
+{
+  "name": "covid-vaccine-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that sends details about covid vaccine slots available near me",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Shubham Parihar <shubhamparihar391@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "discordjs/discord.js",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  },
+  "type": "module"
+}
